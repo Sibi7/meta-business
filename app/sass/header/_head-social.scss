@@ -1,4 +1,4 @@
-.header{
+.header-social{
   display: block;
   position: relative;
   float: left;
@@ -59,8 +59,10 @@
         font-weight: 300;
         position: absolute;
         outline: none;
-        top: -9px;
+        bottom: -9px;
         right: -5px;
+        cursor: pointer;
+        line-height: 0;
         border: 0;
         background: transparent;
       }
