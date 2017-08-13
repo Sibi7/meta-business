@@ -1,0 +1,44 @@
+.result{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  background: #fff;
+  min-width: 1170px;
+  h1{
+    width: 627px;
+    color: #40a0cc;
+    font-size: 37px;
+    font-weight: 700;
+    margin-top: 46px;
+    margin-bottom: 58px;
+    text-transform: uppercase;
+  }
+  &__absolute{
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: -5px;
+    width: 267px;
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  ul{
+    display: block;
+    position: relative;
+    float: left;
+    padding-left: 28px;
+    margin-top: 0;
+    margin-bottom: 56px;
+    li{
+      list-style-image: url("../img/icons/chek.png");
+      padding-left: 28px;
+      color: #0e0e0e;
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 56px;
+    }
+  }
+}
