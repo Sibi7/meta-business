@@ -3,6 +3,7 @@
   position: relative;
   float: left;
   width: 100%;
+  min-width: 1170px;
   &__wrapper{
     display: block;
     position: relative;
@@ -49,7 +50,7 @@
       border: none;
       cursor: pointer;
       margin-bottom: 22px;
-      transition: 200ms ease;
+
       &:hover{
         transform: scale(1.03);
         transition: 200ms ease;
