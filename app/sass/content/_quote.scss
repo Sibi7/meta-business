@@ -1,0 +1,50 @@
+.quote{
+  display: block;
+  position: relative;
+  float: left;
+  min-width: 1170px;
+  width: 100%;
+  background: #f1f1f1;
+  &__wrapper{
+    display: block;
+    position: relative;
+    margin: 44px auto 0 auto;
+    width: 975px;
+    &__author{
+      width: 200px;
+      position: relative;
+      float: left;
+      text-align: center;
+      img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      h3{
+        margin: 33px 0;
+        color: #0e0e0e;
+        font-size: 28px;
+        font-weight: 300;
+      }
+    }
+    &__text{
+      display: block;
+      position: relative;
+      float: left;
+      width: calc(100% - 200px);
+      blockquote{
+        width: 720px;
+        display: block;
+        position: relative;
+        color: #0e0e0e;
+        font-size: 27px;
+        font-weight: 300;
+        padding: 0;
+        font-style: italic;
+        margin: 12%;
+      }
+    }
+  }
+
+}

@@ -5,6 +5,7 @@
   width: 100%;
   background: url("../img/header-bg.jpg") no-repeat center;
   background-size: cover;
+  min-width: 1170px;
   &__wrapper {
     display: block;
     position: relative;
