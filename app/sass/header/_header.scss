@@ -54,8 +54,9 @@
         margin: 0;
         list-style: none;
         li {
-          display: inline-block;
-          margin: 0 20px;
+          display: block;
+          margin: 0 19px;
+          float: left;
           line-height: 67px;
           a {
             color: #212121;
@@ -100,6 +101,7 @@
       line-height: 57px;
       margin-top: 99px;
       margin-bottom: 0;
+      opacity: 0;
     }
     h2 {
       color: #ffffff;
@@ -107,6 +109,7 @@
       font-weight: 300;
       margin-top: 28px;
       margin-bottom: 89px;
+      opacity: 0;
     }
     button{
       width: 292px;
@@ -164,4 +167,5 @@
       transform:(translateY(-5px));
     }
   }
+
 }

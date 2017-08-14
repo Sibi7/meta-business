@@ -12,6 +12,8 @@
     font-weight: 700;
     text-transform: uppercase;
     color: #000000;
+    opacity: 0;
+    transition: 2s ease;
     span {
       color: #118ac1;
     }
@@ -23,6 +25,18 @@
     position: relative;
     text-align: center;
     &__item{
+      opacity: 0;
+      transition: 2s ease;
+      padding: 0 15px;
+      &:nth-of-type(2){
+        transition: 4s ease;
+        border-left: 1px solid #e0e0e0;
+        border-right: 1px solid #e0e0e0;
+
+      }
+      &:nth-of-type(3){
+        transition: 6s ease;
+      }
       width: 315px;
       img{
         width: 273px;

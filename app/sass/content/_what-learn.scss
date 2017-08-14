@@ -4,6 +4,8 @@
   float: left;
   width: 100%;
   min-width: 1170px;
+  opacity: 0;
+  transition: 2000ms ease;
   &__wrapper{
     display: block;
     position: relative;
