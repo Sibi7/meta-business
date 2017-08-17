@@ -167,6 +167,13 @@ $(document).ready(function () {
                 $(this).css('opacity', '1');
             }
         });
+        $('.result ul li').each(function () {
+            var imagePos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow + 300) {
+                $(this).addClass('animated fadeInLeft').css('opacity', '1');
+            }
+        });
         //end time-and-money----------------------------
 
     });

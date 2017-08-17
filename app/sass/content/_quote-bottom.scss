@@ -54,13 +54,19 @@
     display: block;
     position: relative;
     float: left;
-    padding: 30px 60px;
+    padding: 30px 60px 0 60px;
     box-sizing: border-box;
     margin-bottom: 57px;
     width: 50%;
     height: 420px;
     background: url("../img/quote-bottom1.jpg") no-repeat center center;
     background-size: cover;
+    transition: 200ms ease;
+    &:hover{
+      transition: 200ms ease;
+      transform: scale(1.03);
+      z-index: 1;
+    }
     &:last-child{
       background: url("../img/quote-bottom2.jpg") no-repeat center center;
     }
@@ -69,7 +75,7 @@
       font-size: 28px;
       margin-top: 18px;
       font-weight: 300;
-      margin-bottom: 63px;
+      margin-bottom: 20px;
       span{
         font-weight: 600;
       }

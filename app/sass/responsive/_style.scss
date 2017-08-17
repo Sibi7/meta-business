@@ -1,5 +1,10 @@
-@media only screen and (max-width: 1024px) {
-	
+@media only screen and (max-width: 1200px) {
+  .results-people ul li {
+    margin-left: 42px;
+  }
+  .results-people__absolute-text {
+    left: 3%;
+  }
 }
 
 @media only screen and (max-width: 980px) {

@@ -1,0 +1,73 @@
+.what-learn{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-width: 1170px;
+  opacity: 0;
+  transition: 2000ms ease;
+  &__wrapper{
+    display: block;
+    position: relative;
+    float: left;
+    width: 900px;
+    margin-top: 122px;
+    margin-bottom: 182px;
+    background: #118ac1;
+    color: #ffffff;
+    padding: 30px 40px;
+    h1{
+      font-size: 45px;
+      margin-top: 0;
+      text-transform: uppercase;
+      margin-bottom: 45px;
+    }
+    ul{
+      margin: 0;
+      padding-left: 15px;
+      width: 335px;
+      display: block;
+      float: left;
+      margin-right: 50px;
+      li{
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 35px;
+        list-style-image: url("../img/icons/arrow-right.png");
+        padding-left: 10px;
+        box-sizing: border-box;
+      }
+    }
+    button{
+      display: block;
+      float: left;
+      width: 292px;
+      height: 54px;
+      background-color: #ffffff;
+      margin-right: 500px;
+      color: #118ac1;
+      font-size: 21px;
+      font-weight: 400;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 22px;
+
+      &:hover{
+        transform: scale(1.03);
+        transition: 200ms ease;
+      }
+    }
+  }
+  &__absolute{
+    display: block;
+    position: absolute;
+    width: 460px;
+    right: -143px;
+    top: 253px;
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
